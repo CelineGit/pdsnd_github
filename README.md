@@ -10,7 +10,12 @@ Explore US Bikeshare Data
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+=> 3 Dataset files:
+     - chicago.csv
+     - new_york_city.csv
+     - washington.csv
+
+=> Python script. To help guide your work in this project, a template with helper code and comments is provided in a bikeshare.py
 
 ### Credits
 Data are provided by Motivate, a bike share system provider for many major cities in the United States
