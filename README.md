@@ -13,3 +13,4 @@ Describe what your project is about and what it does
 Include the files used
 
 ### Credits
+Data are provided by Motivate, a bike share system provider for many major cities in the United States
