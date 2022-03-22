@@ -203,8 +203,11 @@ def display_data(df):
 
 def main():
     while True:
+        # Get input from user 
         city, month, day = get_filters()
+        # Filter data accordingly 
         df = load_data(city, month, day)
+        # Display statistics 
         time_stats(df, month, day)
         station_stats(df)
         trip_duration_stats(df)
@@ -212,6 +215,7 @@ def main():
         if city != 'w':
             user_stats2(df)
         display_data(df)
+        # Loop to restart 
         restart = input('\nWould you like to restart an analysis? Enter yes or no.\n')
         if restart.lower() != 'yes':
             print('Thank you. Have a good day!\n')
