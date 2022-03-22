@@ -193,12 +193,12 @@ def user_stats2(df):
     print('-'*40)
 
 def display_data(df):
-    """Displays data on user demand - display rows 5 by 5"""
+    """Displays data on user demand - display rows 10 by 10"""
     count = 0
     answer = 'yes'
     while answer != 'no':
-        answer = input('\nDo you want to see 5 rows of data? Type "yes" to display data or "no" to exit\n')
-        print(df.iloc[count:count+5])
+        answer = input('\nDo you want to see 10 rows of data? Type "yes" to display data or "no" to exit\n')
+        print(df.iloc[count:count+10])
         count +=5
 
 def main():
